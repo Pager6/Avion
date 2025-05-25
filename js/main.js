@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function(e) {
 let count = 1;
 const quantity = document.getElementById('quantity');
 
@@ -14,6 +13,7 @@ function decrease() {
     }
 }
 
+document.addEventListener("DOMContentLoaded", function(e) {
 const form = document.getElementById('email-signup');
 const input = document.getElementById('email');
 
@@ -28,7 +28,6 @@ function onInput() {
     input.style.backgroundColor = '#b6e3bd';
   } else {
     input.style.backgroundColor = '#e3b6b6';
-    //e.preventDefault();
   }
 }
 
