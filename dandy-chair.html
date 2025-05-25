@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avion</title>
+    <link rel="stylesheet" href="./css/chair.css">
+</head>
+<body>
+    <header class="header">
+    <a href="index.html">
+    <span>Avion</span></a>
+      <nav>
+        <ul>
+          <li><a href="#">Plant pots</a></li>
+          <li><a href="#">Ceramics</a></li>
+          <li><a href="#">Tables</a></li>
+          <li><a href="#">Chairs</a></li>
+          <li><a href="#">Crockery</a></li>
+          <li><a href="#">Tableware</a></li>
+          <li><a href="#">Cutlery</a></li>
+        </ul>
+      </nav>
+      <div class="icon-header">
+        <a href="#"><img src="./img/Search.svg" alt="Поиск" /></a>
+        <a href="#"><img src="./img/Shopping--cart.svg" alt="Корзина" /></a>
+        <a href="#"><img src="./img/User--avatar.svg" alt="Профиль" /></a>
+      </div>
+    </header>
+    <main class="main">
+        <div class="product-container">
+            <div class="left-image">
+                <img src="./img/Product Image.jpg" alt="Dandy-Chair">
+            </div>
+            <section class="dandy-chair">
+                <div class="cost">
+                    <h2>The Dandy Chair</h2>
+                    <span>£250</span>
+                </div>
+                <div class="line-width"></div>
+                <div class="line-dandy-chair"></div>
+                <div class="description">
+                    <span>Product description</span>
+                    <p>A timeless design, with premium materials features as one of our most popular and iconic pieces. 
+                        The dandy chair is perfect for any stylish living space with beech legs and lambskin leather upholstery.</p>
+                </div>
+                <div class="dimensions">
+                    <h2>Dimensions</h2>
+                    <div class="line-width mobile-show"></div>
+                    <div class="sizes">
+                    <div class="height">
+                        <span>Height</span>
+                        <span>110cm</span>
+                    </div>
+                    <div class="dimensions-line"></div>
+                    <div class="width">
+                        <span>Width</span>
+                        <span>75cm</span>
+                    </div>
+                
+                    <div class="dimensions-line"></div>
+                    <div class="depth">
+                        <span>Depth</span>
+                        <span>50cm</span>
+                    </div>
+                </div>
+                </div>
+                <div class="quantitity">
+                    <h2>Quantitity</h2>
+                    <div class="button-quan">
+                    <span class="symbol" onclick="decrease()">-</span>
+                    <span id="quantity">1</span>
+                    <span class="symbol" onclick="increase()">+</span>
+                    </div>
+                </div>
+                <div class="payment">
+                    <button class="cart" type="button">Add to cart</button>
+                    <button class="favorites" type="button">Save to favorites</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+      <div class="content-footer">
+        <div class="list-footer">
+          <div class="menu">
+            <h4 class="footer-title">Menu</h4>
+            <a href="#">New arrivals</a>
+            <a href="#">Best sellers</a>
+            <a href="#">Recently viewed</a>
+            <a href="#">Popular this week</a>
+            <a href="#">All products</a>
+          </div>
+          <div class="categories">
+            <h4 class="footer-title">Categories</h4>
+            <a href="#">Crockery</a>
+            <a href="#">Furniture</a>
+            <a href="#">Homeware</a>
+            <a href="#">Plant pots</a>
+            <a href="#">Chairs</a>
+          </div>
+          <div class="our-company">
+            <h4 class="footer-title">Our company</h4>
+            <a href="#">About us</a>
+            <a href="#">Vacancies</a>
+            <a href="#">Contact us</a>
+            <a href="#">Privacy</a>
+            <a href="#">Returns policy</a>
+          </div>
+        </div>
+        <div class="join">
+          <h5 class="footer-title">Join our mailing list</h5>
+          <div class="email-signup">
+            <input class="email" placeholder="your@email.com" type="input" />
+            <button class="sign-up" type="button">Sign up</button>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="copyright">
+        <span>Copyright 2022 Avion LTD</span>
+        <div class="messangeres">
+          <a href="#"> <img src="./img/linkedin.svg" alt="Linkedin" /></a>
+          <a href="#"> <img src="./img/facebook.svg" alt="Facebook" /></a>
+          <a href="#"> <img src="./img/insta.svg" alt="Instagram" /></a>
+          <a href="#"> <img src="./img/skype.svg" alt="Skype" /></a>
+          <a href="#"> <img src="./img/twitter.svg" alt="Twitter" /></a>
+          <a href="#"> <img src="./img/pinterest.svg" alt="Pinterest" /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
