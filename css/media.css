@@ -1,0 +1,76 @@
+@media (max-width: 771px) {
+    .content-left {
+        padding: 24px;
+        justify-content: start;
+        align-items: center;
+    }
+    .text-and-btn {
+        display: flex;
+        align-items: center;
+
+    }
+    .new-ceramics {
+        padding-left: 24px;
+    }
+    .main-container-products {
+        justify-content: start;
+        margin: 0px;
+    }
+    .text-and-btn button {
+        width: 100%;
+
+    }
+    .products-cards {
+        width: 163px;
+        height: 288px;
+    }
+    .products-cards img {
+        width: 163px;
+        height: 212px;
+    }
+    .btn button {
+        width: 100%;
+    }
+    .london-brand {
+        flex-direction: column;
+    }
+    .left-text-container {
+        margin: 24px;
+    }
+    .get-in-touch button {
+        width: 100%;
+    }
+    .main-brand-future-container {
+        margin-top: 0px;
+    } 
+    .furniture img {
+        width: 100%;       
+    }
+
+    .product-container {
+        padding: 0;
+        flex-direction: column;
+        padding-bottom: 24px;
+    }
+
+    .left-image img {
+        width: 100%;
+    }
+    .dandy-chair {
+        padding: 0 24px;
+    }
+
+    .payment {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .payment .cart, .favorites{
+        width: 100%;
+    }
+
+    .button-quan {
+    width: 100%;
+    }
+}

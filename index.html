@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Avion</title>
     <link rel="stylesheet" href="./css//style.css" />
+    <link rel="stylesheet" href="./css//chair.css" />
+    <link rel="stylesheet" href="./css//media.css" />
+
   </head>
   <body>
     <header class="header">
     <a href="index.html">
     <span>Avion</span>
     </a>
-      <nav>
+      <nav  class="mobile-hide">
         <ul>
           <li><a href="#">Plant pots</a></li>
           <li><a href="#">Ceramics</a></li>
@@ -26,6 +29,11 @@
         <a href="#"><img src="./img/Search.svg" alt="Поиск" /></a>
         <a href="#"><img src="./img/Shopping--cart.svg" alt="Корзина" /></a>
         <a href="#"><img src="./img/User--avatar.svg" alt="Профиль" /></a>
+        <div class="burger mobile-show">
+          <div class="line-burger"></div>
+          <div class="line-burger"></div>
+          <div class="line-burger"></div>
+        </div>
       </div>
     </header>
     <main class="main">
@@ -47,7 +55,7 @@
               </p>
             </div>
           </div>
-          <div class="image-container">
+          <div class="image-container mobile-hide">
             <img class="chair" src="./img/Right Image.jpg" alt="Стул" />
           </div>
         </section>
@@ -155,16 +163,16 @@
         </div>
         <div class="join">
           <h5 class="footer-title">Join our mailing list</h5>
-          <div class="email-signup">
-            <input class="email" placeholder="your@email.com" type="input" />
+          <form action="#" class="email-signup" id="email-signup">
+            <input class="email" id="email" placeholder="your@email.com" type="input" />
             <button class="sign-up" type="button">Sign up</button>
-          </div>
+          </form>
         </div>
       </div>
       <div class="line"></div>
       <div class="copyright">
         <span>Copyright 2022 Avion LTD</span>
-        <div class="messangeres">
+        <div class="messangeres mobile-hide">
           <a href="#"> <img src="./img/linkedin.svg" alt="Linkedin" /></a>
           <a href="#"> <img src="./img/facebook.svg" alt="Facebook" /></a>
           <a href="#"> <img src="./img/insta.svg" alt="Instagram" /></a>
@@ -174,5 +182,6 @@
         </div>
       </div>
     </footer>
+      <script src="./js/main.js"></script>
   </body>
 </html>

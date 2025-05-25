@@ -278,7 +278,7 @@ footer {
 }
 
 .button-quan {
-    max-width: 122px;
+    width: 122px;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
@@ -292,7 +292,7 @@ footer {
 }
 
 .cart {
-  max-width: 163px;
+  width: 163px;
   background-color:#2A254B;
   font-weight: 400;
   font-size: 20px;
@@ -318,7 +318,7 @@ footer {
 }
 
 .favorites {
-  max-width: 213px;
+  width: 213px;
   color:black;
   font-weight: 400;
   font-size: 20px;
